@@ -25,3 +25,7 @@
             preBuild.dependsOn 'unzipHtml'
         }
         ```
+        
+### gradle plugin
+
+    1、上面的第三步直接放到主module中也是可以的
