@@ -1,0 +1,4 @@
+include ':library'
+include ':app'
+includeBuild("./config")
+rootProject.name = "gradle_plugin_study"

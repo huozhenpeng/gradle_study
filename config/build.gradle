@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        maven { url "http://wh.maven.mo.wps.kingsoft.net:8081/repository/maven-public/" }
+        google()
+        jcenter()
+    }
+}
+
+repositories {
+    maven { url "http://wh.maven.mo.wps.kingsoft.net:8081/repository/maven-public/" }
+    google()
+    jcenter()
+}
+apply plugin: 'java-gradle-plugin'
+apply plugin: 'groovy'
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation "com.google.code.gson:gson:2.8.5"
+}
+
+gradlePlugin {
+    plugins {
+        version {
+            id = "com.example.config"
+            implementationClass = "com.example.config.ConfigPlugin"
+        }
+    }
+}
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
