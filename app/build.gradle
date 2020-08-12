@@ -22,6 +22,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                //看样子是打包任务开始之前指定名称，不是生成完了再重命名
+                println("测试-->${outputFile.name}")
+                def fileName = "customer_${outputFile.name}"
+                output.outputFileName = fileName
+            }
+        }
+    }
+
 }
 
 
