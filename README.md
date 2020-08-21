@@ -34,16 +34,16 @@
     
     
     
-    
-    
 ### 如何调试gradle
 
     步骤：
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/1.jpg?raw=true)
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/2.jpg?raw=true)
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/3.jpg?raw=true)
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/4.jpg?raw=true)
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/5.jpg?raw=true)
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/6.jpg?raw=true)
+    
+
+   ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/1.jpg?raw=true)
+   ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/2.jpg?raw=true)
+   ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/3.jpg?raw=true)
+   ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/4.jpg?raw=true)
+   ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/5.jpg?raw=true)
+   ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/6.jpg?raw=true)
    
     
