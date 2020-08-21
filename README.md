@@ -39,10 +39,10 @@
 ### 如何调试gradle
 
     步骤：
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/1.jpg)
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/2.jpg)
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/3.jpg)
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/4.jpg)
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/5.jpg)
-    ![这里写图片描述](https://github.com/huozhenpeng/gradle_study/blob/master/app/images/6.jpg)
+    ![这里写图片描述](images/1.jpg)
+    ![这里写图片描述](images/2.jpg)
+    ![这里写图片描述](images/3.jpg)
+    ![这里写图片描述](images/4.jpg)
+    ![这里写图片描述](images/5.jpg)
+    ![这里写图片描述](images/6.jpg)
     
