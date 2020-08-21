@@ -29,3 +29,19 @@
 ### gradle plugin
 
     1、上面的第三步直接放到主module中也是可以的
+    
+    
+    
+    
+    
+    
+    
+### 如何调试gradle
+
+    步骤：
+    https://github.com/huozhenpeng/gradle_study/blob/master/app/images/1.jpg
+    https://github.com/huozhenpeng/gradle_study/blob/master/app/images/2.jpg
+    https://github.com/huozhenpeng/gradle_study/blob/master/app/images/3.jpg
+    https://github.com/huozhenpeng/gradle_study/blob/master/app/images/4.jpg
+    https://github.com/huozhenpeng/gradle_study/blob/master/app/images/5.jpg
+    https://github.com/huozhenpeng/gradle_study/blob/master/app/images/6.jpg
