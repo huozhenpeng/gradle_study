@@ -12,7 +12,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import java.io.ByteArrayOutputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -60,9 +63,15 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        public void onBindViewHolder(@NonNull CusViewHolder holder, int position) {
+        public void onBindViewHolder(@NonNull CusViewHolder holder, final int position) {
             String str = data.get(position);
             holder.item.setText(str);
+            holder.item.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(context, "item--->"+position, Toast.LENGTH_SHORT).show();
+                }
+            });
         }
 
         @Override
